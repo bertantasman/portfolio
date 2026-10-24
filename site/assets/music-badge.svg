@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Headphone band -->
+  <path d="M8 26A16 16 0 0 1 40 26" />
+  <!-- Ear cups -->
+  <rect x="5" y="24" width="7" height="12" rx="3.5" fill="currentColor" fill-opacity="0.2" />
+  <rect x="36" y="24" width="7" height="12" rx="3.5" fill="currentColor" fill-opacity="0.2" />
+  <!-- Soundwave / lightning pulse -->
+  <path d="M17 26l3-5 4 10 4-8 3 3" />
+</svg>

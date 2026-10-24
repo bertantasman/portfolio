@@ -1,63 +1,62 @@
 # Design brief
 
-Source: the default brief that ships with the template (no Stitch design).
-Mood: calm, warm, precise. A quiet page like a well-set book: the person's words and work come first, not the decoration.
+Source: the interview, without Stitch
+Mood: funny, colorful, enjoyable. Playful and energetic: rounded shapes, warm cream background, vivid orange accents and sticker badges with outline shadows.
 
 ## Style
 
-- Style: Classic.
-- Feel: calm, warm, precise.
-- Personal detail: none. The default design has no personal detail; the Designer's interview gives you yours.
-- Motion: almost none. When the visitor prefers reduced motion, nothing moves.
+- Style: Playful.
+- Feel: funny, colorful, enjoyable.
+- Personal detail: an electric soundwave & headphone badge accent on the photo frame representing techno and rock music.
+- Motion: small and springy, on hover and keyboard focus. When the visitor prefers reduced motion, nothing moves.
 
 ## Colours
 
 | Token | Light | Dark | Used for |
 |---|---|---|---|
-| background | #f7f3ec | #1b1714 | page background: warm paper |
-| surface | #eee7dc | #26201c | the photo's backdrop, the rare box |
-| text | #231e1a | #eee6dc | headings and body text |
-| muted | #675c52 | #b3a698 | headline under the name, dates, captions, hairlines |
-| accent | #a8402f | #f0937d | links, focus ring: ink red |
-| on-accent | #ffffff | #1b1714 | text on an accent-coloured button |
+| background | #fff8ec | #1e1711 | page background: warm cream |
+| surface | #fef0da | #2b2119 | cards and stickers |
+| text | #2a1b10 | #fcefdf | headings, body text, outlines, hard shadows |
+| muted | #6b5644 | #c9b298 | headline under the name, dates |
+| accent | #c2410c | #ff9a5c | links, focus ring, buttons: vivid orange |
+| on-accent | #ffffff | #1e1711 | text on an accent-coloured button |
 
 ## Type
 
 | Role | Font | Size | Weight |
 |---|---|---|---|
-| headings | "Newsreader", Georgia, "Times New Roman", serif | name 2.75rem, section 1.5rem, project 1.25rem | 500 |
-| body | "Literata", Georgia, "Times New Roman", serif | 1.0625rem, line height 1.65 | 400 |
-| details | "Literata", Georgia, "Times New Roman", serif | dates 0.9375rem | 400 |
+| headings | "Bricolage Grotesque", system-ui, sans-serif | name clamp(2.5rem, 6vw, 4rem), section 1.75rem, project 1.25rem | 800 |
+| body | "Rubik", system-ui, sans-serif | 1.0625rem, line height 1.6 | 400 |
+| details | "Rubik", system-ui, sans-serif | dates 0.875rem | 500 |
 
 ## Shapes
 
-- Corner radius: none; only the photo is round.
-- Borders: hairlines, 1px in the muted colour thinned out, between the sections and between the projects.
-- Shadows: none.
+- Corner radius: 1.25rem on cards, fully round on buttons and stickers; the photo in a rounded blob.
+- Borders: 2px in the text colour around cards and stickers.
+- Shadows: hard offset shadows, 4px down and right with no blur, in the text colour.
 
 ## Layout
 
-- One narrow column, at most 38rem wide, centred, text flush left, with 1.25rem space at the sides on phones.
-- 4rem between sections, with a hairline between them; 1.5rem between items in a list.
-- Projects: a list, one below the other, separated by hairlines; no cards and no columns.
+- One column, at most 48rem, centred, with 1.25rem space at the sides on phones.
+- 4rem between sections, with a wavy line between them; 1.5rem between items in a list.
+- Projects: rounded cards with the sticker outline, two columns from 40rem.
 
 ## Components
 
-- Links: accent colour, underlined a little below the text; the underline disappears on hover, and keyboard focus shows a 2px accent ring.
-- Projects: title as a project heading, one sentence, then the links to the code and the live site as text links.
-- Skills: one plain line, separated by commas.
-- Section headings: plain text in the heading font; the hairline above the section is the only line.
-- The headline under the name: in the heading font's italic, in the muted colour.
+- Links: accent colour, with a thick underline; keyboard focus shows a 3px accent ring.
+- Projects: surface background, 2px outline, hard shadow, 1.5rem inner space.
+- Skills: stickers: surface background, 2px outline, fully round, each tilted a little.
+- Section headings: in the heading font, weight 800.
 
 ## Signature
 
-- Move: Typographic polish
-- Guide: guides/visual-design/improve-text-layout-and-legibility.md
-- Where: every heading and paragraph: headings in even lines, no lonely last word in a paragraph, old-style numbers in the text.
+- Move: Stickers with a spring
+- Guide: guides/ui-behaviors/physics-based-easing.md
+- Where: the skill stickers wobble and grow a little on hover.
 
 ## Sections
 
-1. `bio`: the name, the headline and the bio.
-2. `projects`: the sample person looks for a job, so the projects lead.
+1. `bio`: the name, the headline, pitch, availability and the bio.
+2. `projects`: the goal is a job, so the projects lead.
 3. `links`: GitHub, LinkedIn and email.
 4. `cv`: experience, education and skills.

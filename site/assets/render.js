@@ -169,7 +169,10 @@ const card = (heading, body) => `
 function renderPhoto(photo) {
   if (!filled(photo?.src) || !filled(photo?.alt)) return "";
   return `
-    <img class="photo" src="${escapeHtml(photo.src)}" alt="${escapeHtml(photo.alt)}" width="160" height="160" fetchpriority="high" decoding="async">`;
+    <div class="photo-frame">
+      <img class="photo" src="${escapeHtml(photo.src)}" alt="${escapeHtml(photo.alt)}" width="160" height="160" fetchpriority="high" decoding="async">
+      <span class="photo-badge" aria-hidden="true"></span>
+    </div>`;
 }
 
 // What a visitor gets from the person, each with its proof link if it has one.

@@ -1,79 +1,111 @@
 {
   "$schema": "./content.schema.json",
   "language": "en",
-  "name": "Ada Example",
-  "headline": "Frontend developer who likes fast, accessible web pages",
+  "name": "Ahmet Bertan Tasman",
+  "headline": "Software Engineering & AI Enthusiast | MSc Computer Science Student",
   "photo": {
-    "src": "assets/avatar.svg",
-    "alt": "Ada Example's avatar: a simple drawing of a head and shoulders in two shades of grey"
+    "src": "assets/photo.webp",
+    "alt": "Ahmet Bertan Tasman smiling in a suit and red tie"
   },
-  "pitch": "I build small, fast websites that everyone can use, and I explain every choice in plain words.",
-  "highlights": [
-    { "text": "Every page I look after scores 100 for accessibility in Lighthouse" },
-    { "text": "Five years of teaching maths: I make technical choices easy to follow" },
-    { "text": "Two open-source projects on GitHub", "url": "https://github.com/octocat" }
-  ],
+  "pitch": "I build scalable mobile apps and intelligent systems, with hands-on experience across iOS development, machine learning research, and embedded systems.",
   "availability": {
-    "text": "Open to junior frontend roles from January 2027.",
+    "text": "Open to full-time, part-time, and internship opportunities in software engineering, iOS mobile app development, and AI.",
     "actionLabel": "Write to me",
-    "actionUrl": "mailto:ada@example.com"
+    "actionUrl": "mailto:bertantasman@gmail.com"
   },
-  "location": { "city": "Milan", "country": "Italy", "timeZone": "Europe/Rome" },
+  "location": {
+    "city": "Venice",
+    "country": "Italy",
+    "timeZone": "Europe/Rome"
+  },
   "languages": [
-    { "name": "English", "level": "native" },
-    { "name": "Italian", "level": "B2" }
+    {
+      "name": "Turkish",
+      "level": "native"
+    },
+    {
+      "name": "English",
+      "level": "B2"
+    }
   ],
   "bio": [
-    "I build small, fast websites and the tools around them. Before I wrote code, I taught maths, so I still enjoy explaining things simply.",
-    "This is a sample portfolio of a fictional person. Replace it with your own story."
+    "I'm a Master's student in Computer Science and Information Technology at Ca' Foscari University of Venice, holding a Bachelor's degree in Software Development from Istanbul Aydin University.",
+    "I'm passionate about software engineering, iOS mobile app development, and artificial intelligence. My practical work spans building native iOS apps with Swift and SwiftUI, conducting machine learning research on explanation stability (SHAP), and developing embedded systems with ESP32.",
+    "Currently, I'm working as a Mobile Application Developer & Software Project Coordinator at Akıllı Otomat, and I'm eager to connect with engineering teams to build impactful technology."
   ],
   "projects": [
     {
-      "title": "Tide Tables",
-      "description": "A tiny web app that shows today's tides for a chosen harbour, built with plain HTML, CSS and JavaScript.",
-      "github": "https://github.com/octocat/Hello-World"
-    },
-    {
-      "title": "Reading Log",
-      "description": "A static site that lists the books I read, generated from one JSON file.",
-      "github": "https://github.com/octocat/Spoon-Knife",
-      "url": "https://octocat.github.io/Spoon-Knife/"
+      "title": "BuGunluk",
+      "description": "A platform connecting university students seeking flexible, short-term jobs with employers looking for temporary workers.",
+      "github": "https://github.com/bertantasman/buGunluk"
     }
   ],
   "links": [
-    { "label": "GitHub", "url": "https://github.com/octocat" },
-    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/ada-example" },
-    { "label": "Email", "url": "mailto:ada@example.com" }
+    {
+      "label": "GitHub",
+      "url": "https://github.com/bertantasman"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/ahmet-bertan-ta%C5%9Fman-5339b4203/"
+    },
+    {
+      "label": "Email",
+      "url": "mailto:bertantasman@gmail.com"
+    },
+    {
+      "label": "Phone",
+      "url": "tel:+393936264633"
+    }
   ],
   "cv": {
     "experience": [
       {
-        "role": "Junior Frontend Developer",
-        "organization": "Example Studio",
-        "start": "2024",
+        "role": "Mobile Application Developer / Software Project Coordinator",
+        "organization": "Akıllı Otomat",
+        "start": "2025-10",
         "end": "present",
-        "summary": "Build and maintain marketing sites; brought every page to a Lighthouse accessibility score of 100."
+        "summary": "Develop scalable iOS and Android applications, coordinate technical teams, and contribute to software architecture planning and delivery milestones."
       },
       {
-        "role": "Maths Teacher",
-        "organization": "Example Secondary School",
-        "start": "2019",
-        "end": "2024",
-        "summary": "Taught maths to students aged 11 to 16 and ran the after-school coding club."
+        "role": "iOS Developer Intern",
+        "organization": "BilgeAdam Teknoloji",
+        "start": "2024-10",
+        "end": "2025-06",
+        "summary": "Built iOS applications with Swift and UIKit, handling UI components, API integration, and architectural best practices."
+      },
+      {
+        "role": "Software Tester",
+        "organization": "Telpass",
+        "start": "2024-02",
+        "end": "2024-08",
+        "summary": "Executed quality assurance and bug reporting for chat applications in collaboration with development teams."
       }
     ],
     "education": [
       {
-        "title": "Web Development Bootcamp",
-        "organization": "Example Academy",
-        "year": "2023"
+        "title": "Master's Degree in Computer Science and Information Technology",
+        "organization": "Università Ca' Foscari Venezia",
+        "year": "2026 – present"
       },
       {
-        "title": "BSc Mathematics",
-        "organization": "Example University",
-        "year": "2018"
+        "title": "Bachelor of Science in Software Development",
+        "organization": "Istanbul Aydin University",
+        "year": "2021 – 2026"
       }
     ],
-    "skills": ["HTML", "CSS", "JavaScript", "Accessibility", "Git"]
+    "skills": [
+      "Swift",
+      "SwiftUI",
+      "UIKit",
+      "iOS Development",
+      "Flutter",
+      "Java",
+      "Python",
+      "Machine Learning",
+      "Firebase",
+      "Git",
+      "Postman"
+    ]
   }
 }
